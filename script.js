@@ -14,7 +14,7 @@ Car.prototype.getMakeModel = function(){
 }
 
 SportsCar.prototype.getTopSpeed = function(){
-	return `top speed is ${this.topSpeed}`;
+	return `${this.topSpeed}`;
 }
 
 SportsCar.prototype = Object.create(Car.prototype);
